@@ -13,3 +13,7 @@ RowAray::RowAray(unsigned int n){
 RowAray::~RowAray(){
     delete[] rowData;
 }
+
+void RowAray::setData(int pos, int val) {
+        rowData[pos] = val;
+}
