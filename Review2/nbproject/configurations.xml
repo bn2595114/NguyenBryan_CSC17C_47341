@@ -17,8 +17,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>AbsRow.cpp</itemPath>
-      <itemPath>AbsTabl.cpp</itemPath>
       <itemPath>PlusTab.cpp</itemPath>
       <itemPath>RowAray.cpp</itemPath>
       <itemPath>Table.cpp</itemPath>
@@ -46,11 +44,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="AbsRow.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="AbsRow.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="AbsTabl.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="AbsTabl.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -89,11 +83,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="AbsRow.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="AbsRow.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="AbsTabl.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="AbsTabl.h" ex="false" tool="3" flavor2="0">
       </item>

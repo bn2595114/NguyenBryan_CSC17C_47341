@@ -35,8 +35,6 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/AbsRow.o \
-	${OBJECTDIR}/AbsTabl.o \
 	${OBJECTDIR}/PlusTab.o \
 	${OBJECTDIR}/RowAray.o \
 	${OBJECTDIR}/Table.o \
@@ -66,16 +64,6 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/review2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/review2 ${OBJECTFILES} ${LDLIBSOPTIONS}
-
-${OBJECTDIR}/AbsRow.o: AbsRow.cpp
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/AbsRow.o AbsRow.cpp
-
-${OBJECTDIR}/AbsTabl.o: AbsTabl.cpp
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/AbsTabl.o AbsTabl.cpp
 
 ${OBJECTDIR}/PlusTab.o: PlusTab.cpp
 	${MKDIR} -p ${OBJECTDIR}

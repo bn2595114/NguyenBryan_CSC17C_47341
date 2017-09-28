@@ -11,7 +11,9 @@
 
 class PlusTab:public Table{
     public:
-        PlusTab(unsigned int r,unsigned int c):Table(r,c){};
+        PlusTab(unsigned int r,unsigned int c):Table(r,c){
+            Table(r,c);
+        };
         PlusTab operator+(const PlusTab &);
 };
 
