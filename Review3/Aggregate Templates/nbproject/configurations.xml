@@ -17,9 +17,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>PlusTab.cpp</itemPath>
-      <itemPath>RowAray.cpp</itemPath>
-      <itemPath>Table.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -48,15 +45,9 @@
       </item>
       <item path="AbsTabl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="PlusTab.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="PlusTab.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="RowAray.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="RowAray.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Table.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Table.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -87,15 +78,9 @@
       </item>
       <item path="AbsTabl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="PlusTab.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="PlusTab.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="RowAray.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="RowAray.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Table.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Table.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -8,18 +8,32 @@
 #ifndef ROWARAY_H
 #define	ROWARAY_H
 
+#include <cstdlib>
 #include "AbsRow.h"
 
 template <class T>
 class RowAray:public AbsRow<T>{
     public:
-        RowAray(unsigned int);
-        virtual ~RowAray();
-        int getSize()const{return size;}
-        int getData(int i)const{
-            if(i>=0&&i<size)return rowData[i];
+        RowAray(T);
+        virtual ~RowAray(){delete[] this->rowData;};
+        T getSize()const{return this->size;}
+        T getData(int i)const{
+            if(i>=0&&i<this->size)return this->rowData[i];
             else return 0;}
-        void setData(int,int);
+        void setData(int p,T v){this->rowData[p]=v;};
 };
+
+template <class T>
+RowAray<T>::RowAray(T n){
+    this->size = n;
+    this->rowData = new T[this->size];
+    for(int i=0; i<(this->size); i++){
+        this->rowData[i] = rand()%90+10;
+    }
+}
+
+
+
+
 
 #endif	/* ROWARAY_H */
