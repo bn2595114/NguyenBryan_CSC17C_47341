@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
    //Test out the Table with a float
    Table<float> tab1(rows,cols);
    Table<float> tab2(tab1);
-   Table<float> tab3=tab1+tab2;
+   Table<float> tab3=tab1;
    
    cout<<"Float Table 3 size is [row,col] = Table 1 + Table 2 ["
            <<rows<<","<<cols<<"]";
