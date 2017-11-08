@@ -28,14 +28,14 @@ int main(int argc, char** argv) {
 
 float c(float x){
     double tol = .000001;
-    if(abs(x)<tol) return (1/x + x/6);
+    if(abs(x)<tol) return (1/(2*x) + (2*x)/6);
     x/=2;
     return (0.5 * c(x)*s(x));
 }
 
 float s(float x){
     double tol = .000001;
-    if(abs(x)<tol) return (1 + x*x/2);
+    if(abs(x)<tol) return (1 + (2*x)*(2*x)/2);
     x/=2;
     float a = s(x);
     float b = c(x);

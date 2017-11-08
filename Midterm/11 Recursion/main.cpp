@@ -19,8 +19,8 @@ using namespace std;
 float recur(float x);
 
 int main(int argc, char** argv) {
-    // Numbers seem accurate but are far down in decimal place
-    cout << recur(M_PI/4);
+    
+    cout << recur(1);
     
     return 0;
 }
@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
 float recur(float x){
     float tol=.000001; // 10^(-6)
     if(x>=-1 && x<=1)
-    if(abs(x)<tol) return x-((x*x*x)/6.f);
+    if(abs(x)<tol) return (2*x-((2*x*2*x*2*x)/6.f));
     x/=2.f;
     return ((2.f*recur(x))/(1+(recur(x)*recur(x))));
 }
