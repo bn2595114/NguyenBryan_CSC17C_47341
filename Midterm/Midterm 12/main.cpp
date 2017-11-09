@@ -28,15 +28,15 @@ int main(int argc, char** argv) {
 
 float c(float x){
     double tol = .000001;
-    if(abs(x)<tol) return (1/(2*x) + (2*x)/6);
-    x/=2;
+    if(abs(x)<tol) return (1/(2*x) + (2*x)/6); // Multiply  by 2 gives closer
+    x/=2;                                      // answer
     return (0.5 * c(x)*s(x));
 }
 
 float s(float x){
     double tol = .000001;
-    if(abs(x)<tol) return (1 + (2*x)*(2*x)/2);
-    x/=2;
+    if(abs(x)<tol) return (1 + (2*x)*(2*x)/2); // Multiply by 2 gives closer
+    x/=2;                                      // answer
     float a = s(x);
     float b = c(x);
     return ((b*b*a*a)/(b*b-a*a));

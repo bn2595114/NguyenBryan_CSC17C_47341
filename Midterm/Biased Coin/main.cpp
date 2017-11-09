@@ -26,8 +26,10 @@ int main(int argc, char** argv) {
     for(int i=0; i<1000000; i++){
         count(c);
     }
+    cout << "1,000,000 Attempts " << endl;
     cout << "# of times that 5 random bits all fall within filled section: ";
-    cout << c/5 << endl;
+    cout << c << endl;
+    cout << "Numbers of success: (" << c << "/" << "1000000):"; 
     cout <<endl<<(c/1000000.f);
     return 0;
 }
@@ -58,5 +60,5 @@ void count(int&c){
         if(a[rand()%10]==true)
             f++;
     };
-    if(f==5) c++;
+    if(f==5) c++; // will divide c by #
 }
