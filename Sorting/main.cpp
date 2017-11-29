@@ -30,11 +30,11 @@ void quickSort(int[], int, int);
 void heapify(int[], int, int);
 void heapSort(int[], int);
 int* copy(int*, int);
-
+int* scramble(int*,int);
 int main(int argc, char** argv) {
 
     srand(static_cast<unsigned int>(time(0)));
-    const int SIZE = 90000;
+    const int SIZE = 50000;
     int a[SIZE];
     for(int i=0;i<SIZE;i++){
         a[i] = rand()%10;
@@ -46,18 +46,24 @@ int main(int argc, char** argv) {
     int n = sizeof(a)/sizeof(a[0]);
  
     int beg=time(0);
-    for(int i=0;i<1000;i++)
-    heapSort(a, n); // O(nLogn)
+    //for(int i=0;i<1000;i++)
+    //heapSort(a, n); // O(nLogn)
     int end=time(0);
     cout << "HEAP SORT TIME: " << end-beg << endl;
     
     beg=time(0);
+    //for(int i=0;i<100;i++){
     //shellSort(b,n); //O(n^2)
+    // scramble(b,n);
+    // }
     end=time(0);
     cout << "SHELL SORT TIME: " << end-beg << endl;
     
     beg=time(0);
-    //mergeSort(c, 0, n-1); //O(n)
+    for(int i=0; i<1000; i++){
+    mergeSort(c, 0, n-1); //O(n)
+    
+    }
     end=time(0);
     cout << "MERGE SORT TIME: " << end-beg << endl;
     
@@ -274,4 +280,9 @@ int* copy(int* a,int s){
     for(int i=0;i<s;i++)
         b[i] = a[i];
     return b;
+}
+
+int* scramble(int* a, int size){
+    for(int i=0; i<size;i++)
+        a[i]=rand()%10;
 }
