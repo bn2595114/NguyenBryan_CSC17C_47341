@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=generalhashfunctionscpp
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/generalhashfunctionscpp
+CND_ARTIFACT_NAME_Debug=hash_investigation
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/hash_investigation
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=generalhashfunctionscpp.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/generalhashfunctionscpp.tar
+CND_PACKAGE_NAME_Debug=hashinvestigation.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/hashinvestigation.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=generalhashfunctionscpp
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/generalhashfunctionscpp
+CND_ARTIFACT_NAME_Release=hash_investigation
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/hash_investigation
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=generalhashfunctionscpp.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/generalhashfunctionscpp.tar
+CND_PACKAGE_NAME_Release=hashinvestigation.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/hashinvestigation.tar
 #
 # include compiler specific variables
 #

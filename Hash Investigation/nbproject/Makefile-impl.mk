@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=GeneralHashFunctionsCPP
+PROJECTNAME=Hash Investigation
 
 # Active Configuration
 DEFAULTCONF=Debug
